@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/feedback.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <title>FEEDBACK</title>
+</head>
+<body>
+    <div class="container">
+        <div class="feedback">
+            <div class="junbotron">
+                <span class="image"><img src="{% static 'images/web_app_logo.png' %}" alt="LOGO"></span>
+                <hr>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea" placeholder="write Here..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

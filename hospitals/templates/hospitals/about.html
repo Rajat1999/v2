@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABOUT US</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'csss/styles.css' %}">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+
+        <div class="jumbotron jumbotron-sub">
+            <h1><span class="heading">About Us</span></h1>
+        </div>
+
+
+    <div class="container">
+        <div class="jumbotron">
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Who We Are?
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show info" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <p>
+                    We are a organization which is working on this problem of Bed facilities in hospitals.
+                    <br>
+                    While efforts by successive governments have failed to address the problem.
+                    Our plan of action is very much in line with limited bed space and improvement in the accessibility
+                    system.
+                    At TOI’s roundtable on Delhi’s traffic and congestion problem last month, the government was not in
+                    favour of constructing more parking lots.
+                    People buy a car for Rs 2 lakh and expect the government to construct parking for it for Rs 10
+                    lakh.
+                    Why should the government do that? The government is not responsible for creating more parking for
+                    people.
+                    Parking is the responsibility of the person who has bought the car.
+                    While the government is firm on changing the parking policy, officials say it will take time to
+                    implement it.
+                    “The government will have to strengthen the public transport system before increasing parking
+                    rates. It is a long-term plan.
+                    We can’t inconvenience people by increasing the parking rates without providing adequate public
+                    transport,” said a source in the government.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    What We Do?
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse info" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <p>
+                    Through this web app we register Hospitals and access their data regarding bed facilities and management. 
+                    We feels that the 
+                    The public policy needs to be structured in such a way that the issue can be tackled effectively.
+                    One way to handle this is to take away the subsidy provided for parking.
+                    The charges for parking should be determined as per the land value of the particular area or the
+                    rent that is being charged for the same.
+                    It is also important that major sites of tourist interest, the heritage zones and shopping areas
+                    are made strictly off limit for cars.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
